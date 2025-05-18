@@ -1,0 +1,142 @@
+#Listing {
+  max-width: 700px;
+  margin: 150px auto 30px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#listingtitle {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.list label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #555;
+}
+
+.list input[type='number'],
+.list input[type='file'],
+.list textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.list textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.list input:focus,
+.list textarea:focus {
+  border-color: #007bff;
+}
+
+.submit_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit_button:hover {
+  background-color: #0056b3;
+}
+
+/* ✅ Preview image area */
+.preview-container {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+  flex-wrap: wrap;
+}
+
+.preview-wrapper {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  flex-shrink: 0;
+}
+
+.preview-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
+
+.delete-btn {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  border: none;
+  color: white;
+  font-size: 10px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-btn svg{
+    color: black;
+}
+
+.delete-btn svg:hover{
+    color: red;
+    width: 19px;
+    height: 19px;
+}
+
+@media (max-width: 768px) {
+  #Listing {
+    margin: 80px 15px 30px 15px;
+    padding: 20px;
+  }
+
+  #listingtitle {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

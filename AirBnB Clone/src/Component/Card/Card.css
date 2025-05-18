@@ -1,0 +1,41 @@
+.card{
+    width: 300px;
+    max-width: 90%;
+    height: 450px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.card .images{
+    width: 100%;
+    height: 65%;
+    overflow-x: auto;    
+    display: flex;
+    gap: 10px;
+    scroll-behavior: smooth;
+}
+
+.images img{
+    width: 100%;
+    height: 100%;
+    flex: 0 0 auto;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.cardspan1{
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+}
+
+.cardspan2{
+    font-size: 17px;
+    font-weight: 300;
+    color: rgb(70, 69, 69);
+}
+
+/* 1.21.54 */
