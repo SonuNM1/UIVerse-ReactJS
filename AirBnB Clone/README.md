@@ -2,11 +2,17 @@
 
 - Full stack project 
 
+- Error boundary 
+
 - React tailwind project 
 
 - CSS tutorial + project 
 
 - typescript 
+
+- Lazy load 
+
+- Make react app efficient production ready 
 
 - NextJS
 
