@@ -28,6 +28,10 @@
 
 - GitLab
 
+- Redux devtools 
+
+- BitBucket 
+
 - Formik 
 
 - Shoes + Mountain bag + Portfolio doc order + Print docs + Passport size photo 
