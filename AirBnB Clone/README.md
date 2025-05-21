@@ -1,8 +1,25 @@
-- Contact us form 
+
+## 🏠 Homepage
+
+![Homepage](public/homepage.png)
+
+## 📃 Listing Page 
+
+![Listing Page](public/listing_page.png)
+
+## 🔐 Login Page
+
+![Login Page](public/login_page.png)
+
+## 🧩 Register Page
+
+![Others](public/register_page.png)
+
+- Contact us form ✅
 
 - Full stack project 
 
-- Error boundary 
+- Error boundary ✅
 
 - React tailwind project 
 
@@ -16,19 +33,19 @@
 
 - NextJS
 
-- Redux + project 
+- Redux + project ✅ 
 
 - Redux thunk 
 
 - Frontend inspirations 
 
-- React carousel framework , slick 
+- React carousel framework , slick ✅
 
 - in house tools used in companies for efficiency and productivity
 
 - GitLab
 
-- Redux devtools 
+- Redux devtools ✅
 
 - BitBucket 
 
